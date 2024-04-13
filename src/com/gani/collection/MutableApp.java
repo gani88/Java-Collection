@@ -7,11 +7,11 @@ import java.util.List;
 public class MutableApp {
     public static void main(String[] args) {
 
-        Person person1 = new Person("Zarek");
+        Person person1 = new Person("Zarek", List.of("Basketball"));
         person1.addHobby("Coding");
         person1.addHobby("Gaming");
 
-        getButChanging(person1.getHobbies());
+//        getButChanging(person1.getHobbies());
         for (var value : person1.getHobbies()) {
             System.out.println(value);
         }

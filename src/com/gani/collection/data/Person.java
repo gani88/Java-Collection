@@ -9,9 +9,9 @@ public class Person {
     private String name;
     private List<String> hobbies;
 
-    public Person(String name) {
+    public Person(String name, List<String> hobbies) {
         this.name = name;
-        this.hobbies = new ArrayList<>();
+        this.hobbies = new ArrayList<>(hobbies);
     }
 
     public void addHobby(String hobby) {
