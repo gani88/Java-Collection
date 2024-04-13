@@ -28,8 +28,5 @@ public class CalApp {
         Function<Integer, Boolean> isOdd = angka -> angka % 2 ==1;
         System.out.println(isOdd.apply(10));
 
-
     }
-
-
 }
